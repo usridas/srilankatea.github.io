@@ -1,0 +1,110 @@
+---
+---
+@import 'resources';
+
+@font-face {
+  font-family: "Bahij_Janna_Bold";
+  src: url("Bahij-Janna-Bold.ttf");
+  }
+
+@font-face {
+  font-family: "Bahij_Janna";
+  src: url("Bahij-Janna-Regular.ttf");
+  }
+
+@font-face {
+  font-family: "Centima_Mono";
+  src: url("Centima-Mono-W01-Regular.otf");
+}
+
+html {
+  background: $seapod;
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  text-align: center;
+}
+
+.main_header h1 {
+  font-family: Bahij_Janna_Bold;
+  font-size: 48px;
+  color: $moss;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.main_header h2 {
+  font-family: Centima_Mono;
+  color: $moss;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.main_header ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+  background-color: $thundercloud;
+  text-align: center;
+}
+
+.main_header li {
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  display: inline-block;
+}
+
+.main_header li a {
+  margin: 0;
+  padding: 14px 16px;
+  display: block;
+  color: $skyblue;
+  font-family: Centima_Mono;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main_header li a:hover {
+  background-color: $misty;
+}
+
+.main_contactus h3 {
+  font-family: Bahij_Janna_Bold;
+  color: $moss;
+  font-size: 26px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.main_contactus p, a {
+  font-family: Bahij_Janna;
+  color: $moss;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contactform label{
+  font-family: Bahij_Janna;
+  color: $moss;
+  font-size: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.construction {
+  color: $misty;
+}
